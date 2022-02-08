@@ -1,15 +1,18 @@
+''' Documentação
+- https://en.wikipedia.org/wiki/Random_walk
+'''
+
 from turtle import Turtle
 import random
 
-sasuke = Turtle()
+zen = Turtle()
 
-colours = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray", "SeaGreen"]
+colours = ["MediumOrchid", "Orchid", "Plum", "Thistle", "MediumOrchid", "Orchid", "Plum", "Thistle"]
 directions = [0, 90, 180, 270]
-sasuke.pensize(15)
-sasuke.speed("fastest")
+zen.pensize(15)
+zen.speed("fastest")
 
 for _ in range(200):
-    sasuke.color(random.choice(colours))
-    sasuke.forward(30)
-    sasuke.setheading(random.choice(directions))
-
+    zen.color(random.choice(colours))
+    zen.forward(30)
+    zen.setheading(random.choice(directions))

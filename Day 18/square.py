@@ -1,7 +1,7 @@
 from turtle import Turtle
 
-boruto = Turtle()
+sakura = Turtle()
 
 for _ in range(4):
-    boruto.forward(100)
-    boruto.left(90)
+    sakura.forward(100)
+    sakura.left(90)
